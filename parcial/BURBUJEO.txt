@@ -1,0 +1,11 @@
+BURBUJEO
+
+for(y=0:y<10-1:y++) //no recorre la ultimaposición
+    for(j=1:j<10:j++) //no recorre la primer posición
+    {
+        IF( variableA > variableB) {
+            variable_aux = variableA[y];
+            variableA[y]  = VariableB[j];
+            VariableB[j]   = variable_aux;
+         } 
+     }
