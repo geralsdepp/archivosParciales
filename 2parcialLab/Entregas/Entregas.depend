@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1480396954 source:j:\parcial\2parciallab\entregas\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1480394067 j:\parcial\2parciallab\entregas\arraylist.h
+
+1480474900 source:j:\parcial\2parciallab\entregas\entregas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entregas.h"
+	"ArrayList.h"
+	"validaciones.h"
+
+1480473657 j:\parcial\2parciallab\entregas\entregas.h
+	"ArrayList.h"
+
+1480470473 j:\parcial\2parciallab\entregas\validaciones.h
+
+1480472481 source:j:\parcial\2parciallab\entregas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entregas.h"
+	"ArrayList.h"
+	"validaciones.h"
+
+1480471243 source:j:\parcial\2parciallab\entregas\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1480564827 source:c:\users\geral\desktop\2parciallab\entregas\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1480394067 c:\users\geral\desktop\2parciallab\entregas\arraylist.h
+
+1480616748 source:c:\users\geral\desktop\2parciallab\entregas\entregas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entregas.h"
+	"ArrayList.h"
+	"validaciones.h"
+
+1480574563 c:\users\geral\desktop\2parciallab\entregas\entregas.h
+	"ArrayList.h"
+
+1480568564 c:\users\geral\desktop\2parciallab\entregas\validaciones.h
+
+1480617231 source:c:\users\geral\desktop\2parciallab\entregas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"entregas.h"
+	"ArrayList.h"
+	"validaciones.h"
+
+1480568564 source:c:\users\geral\desktop\2parciallab\entregas\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
