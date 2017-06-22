@@ -174,13 +174,13 @@
 
 1494270792 c:\users\geral\desktop\parcial2.arraylist\misvalidaciones.h
 
-1498092582 source:c:\users\geral\desktop\parcial2.arraylist\main.c
+1498153352 source:c:\users\geral\desktop\parcial2.arraylist\main.c
 	<stdio.h>
 	<stdlib.h>
 	"misFunciones.h"
 	"ArrayList.h"
 
-1498091628 c:\users\geral\desktop\parcial2.arraylist\misfunciones.h
+1498159408 c:\users\geral\desktop\parcial2.arraylist\misfunciones.h
 	"ArrayList.h"
 
 1498072046 c:\users\alumno\desktop\parcial2.arraylist\missetsygets.h
@@ -193,7 +193,7 @@
 	<stdio.h>
 	<string.h>
 
-1498111371 source:c:\users\geral\desktop\parcial2.arraylist\misfunciones.c
+1498158863 source:c:\users\geral\desktop\parcial2.arraylist\misfunciones.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -205,7 +205,7 @@
 1498072046 c:\users\geral\desktop\parcial2.arraylist\missetsygets.h
 	"misFunciones.h"
 
-1498091644 source:c:\users\geral\desktop\parcial2.arraylist\missetsygets.c
+1498153627 source:c:\users\geral\desktop\parcial2.arraylist\missetsygets.c
 	"misSetsyGets.h"
 	"misFunciones.h"
 	<stdlib.h>

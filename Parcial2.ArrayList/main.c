@@ -40,16 +40,16 @@ inicializar_lista(lista_Calificaciones);
             cancelar_publicacion(lista_usuarios,lista_productos);
             break;
         case 7:
-            comprar_producto(lista_productos,lista_Calificaciones);
+            comprar_producto(lista_productos,lista_Calificaciones); //falta cantidad vendida
             break;
         case 8:
-            listar_public_usuario(lista_usuarios,lista_productos);
+            listar_public_usuario(lista_usuarios,lista_productos); //anda bien
             break;
         case 9:
-            listar_public(lista_productos,lista_usuarios); // se me rompe luego de imprimir el 3 elemento
+            listar_public(lista_productos,lista_usuarios); //anda bien
             break;
         case 10:
-            listar_usuario(lista_usuarios, lista_Calificaciones); //solo me muestra que n hay calificaciones
+            listar_usuario(lista_usuarios, lista_Calificaciones); //no me muestra nada
             break;
         case 11:
             seguir = 'n';

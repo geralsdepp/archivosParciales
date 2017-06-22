@@ -456,9 +456,9 @@ void comprar_producto(ArrayList* this,ArrayList* lista_calif)
     int idC,idP,calificacion,flag = 0,indexP;
 
     S_Calificacion* auxCalif = puntuacion_new();
-    S_Usuario* auxUsuario = NULL;
+   // S_Usuario* auxUsuario = usuarios_new();
     S_Producto* auxProducto = NULL;
-    int auxStock = 0;
+    int auxStock = 0,i;
 
     if(!getStringNumeros("Ingrese id del producto que desea comprar: ",id_str))
     {
@@ -484,16 +484,27 @@ void comprar_producto(ArrayList* this,ArrayList* lista_calif)
                 {
                     flag = 0;
                     calificacion = atoi(calificacion_str);
-                    puntuacion_setIdPuntuacion(auxCalif,idC);
-                    puntuacion_setPuntuacion(auxCalif,calificacion);
-                    puntuacion_setIdUsuario(auxCalif,usuarios_getId(auxUsuario));
-                    auxStock = producto_getStock(auxProducto);
-                    auxStock = auxStock -1;
-                    producto_setStock(auxProducto,auxStock);
-                    if()
-                    producto_setCantidadVendida(auxProducto,cantidadVendida+1);
+                    for(i=0; i<this->len(this); i++)
+                    {
+                        auxProducto = this->get(this,indexP);
 
-                    lista_calif->add(lista_calif,auxCalif);
+                        if(auxProducto->idUsuario == i)
+                        {
+                            puntuacion_setIdPuntuacion(auxCalif,idC);
+                            puntuacion_setPuntuacion(auxCalif,calificacion);
+                            puntuacion_setIdUsuario(auxCalif,producto_getIdUsuario(auxProducto)); //no me copia el usuario
+                            auxStock = producto_getStock(auxProducto);
+                            auxStock = auxStock -1;
+                            producto_setStock(auxProducto,auxStock);
+
+                            producto_setCantidadVendida(auxProducto,cantidadVendida+1);
+
+                            lista_calif->add(lista_calif,auxCalif);
+                            break;
+                        }
+
+                    }
+
                 }
             }
         }
@@ -594,30 +605,30 @@ void listar_usuario(ArrayList* lista_usuarios, ArrayList* lista_calif)
         if(lista_usuarios->contains(lista_usuarios,lista_usuarios->get(lista_usuarios,i))==1)
         {
             auxCalif = lista_calif->get(lista_calif,i);
+            auxUsuario = lista_usuarios->get(lista_usuarios,i);
             if(puntuacion_getIdUsuario(auxCalif) == i)
             {
-                prom = promedio(lista_calif,auxUsuario,i);
+                prom = promedio(lista_calif,auxCalif,i);
                 printf("id: %d",usuarios_getId(auxUsuario));
                 printf("  Nombre: %s",usuarios_getName(auxUsuario));
                 printf("  Password: %s",usuarios_getPassword(auxUsuario));
                 printf("  Calificacion promedio: %.2f",prom);
             }
 
-        }printf("error");
+        }else printf("error");
     }
 }
 
-float promedio(ArrayList* this,S_Usuario* auxUsuario, int i) //tengo que calcular el promedio de cada usuario
+float promedio(ArrayList* this,S_Calificacion* auxCalif, int i) //tengo que calcular el promedio de cada usuario
 {
     float retornoPromedio;
     int suma=0;
     int longitudCalif = this->len(this);
     int j;
-    S_Calificacion* auxCalif = NULL;
 
     for(j=0; j<longitudCalif;j++)
     {
-        if(this->contains(this,this->get(this,j))==1) //busca en la lista si contiene el idCalif
+        if(this->contains(this,this->get(this,j))==1) //busca en la lista si contiene el idCalif NO ENTRA EN EL IF
         {
             auxCalif = (S_Calificacion*)this->get(this,j);
             if(puntuacion_getIdCalif(auxCalif) == j && puntuacion_getIdUsuario(auxCalif) == i)
@@ -731,3 +742,4 @@ void controller_getFile(ArrayList* this)
         printf("No existe archivo.\n");
     }
 }
+*/

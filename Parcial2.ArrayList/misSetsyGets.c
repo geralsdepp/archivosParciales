@@ -104,7 +104,7 @@ int producto_setCantidadVendida(S_Producto* this, int cantidadVendida)
 {
     int retorno = -1;
 
-    if(this != NULL && cantidadVendida>0)
+    if(cantidadVendida>0)
     {
         this->cantidadVendida = cantidadVendida;
         retorno = 0;

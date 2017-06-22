@@ -48,5 +48,5 @@ void listar_public_usuario(ArrayList* lista_usuarios, ArrayList* lista_productos
 void listar_public(ArrayList* lista_productos, ArrayList* lista_usuarios);
 void listar_usuario(ArrayList* lista_usuarios, ArrayList* lista_calif);
 
-float promedio(ArrayList* this, S_Usuario* auxUsuario, int i);
+float promedio(ArrayList* this, S_Calificacion* auxCalif, int i);
 #endif //USUARIOS_H_INCLUDED
