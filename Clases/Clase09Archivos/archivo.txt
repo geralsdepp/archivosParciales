@@ -1,0 +1,4 @@
+id=0
+nombre=geraldine
+edad=24
+dni=37171723

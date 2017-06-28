@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1490913757 source:e:\utn\programación 2017\clases\clase04arrays2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1490835447 e:\utn\programación 2017\clases\clase04arrays2\funciones.h
+
+1490914341 source:e:\utn\programación 2017\clases\clase04arrays2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1491099831 source:d:\utn\programación 2017\clases\clase04arrays2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1491099371 d:\utn\programación 2017\clases\clase04arrays2\funciones.h
+
+1491099936 source:d:\utn\programación 2017\clases\clase04arrays2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1491100833 source:h:\utn\programación 2017\clases\clase04arrays2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1491099371 h:\utn\programación 2017\clases\clase04arrays2\funciones.h
+
+1491099936 source:h:\utn\programación 2017\clases\clase04arrays2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1491248945 source:c:\users\alexis\desktop\clase04arrays2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1491099371 c:\users\alexis\desktop\clase04arrays2\funciones.h
+
+1491232670 source:c:\users\alexis\desktop\clase04arrays2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

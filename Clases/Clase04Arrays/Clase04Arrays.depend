@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1490830931 source:e:\utn\programación 2017\clases\clase04arrays\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1490826789 e:\utn\programación 2017\clases\clase04arrays\funciones.h
+
+1490831006 source:e:\utn\programación 2017\clases\clase04arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1490830931 source:d:\utn\programación 2017\clases\clase04arrays\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1490826789 d:\utn\programación 2017\clases\clase04arrays\funciones.h
+
+1491099128 source:d:\utn\programación 2017\clases\clase04arrays\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1492471767 source:e:\utn\programación 2017\clases\clase05string\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+
+1492471843 e:\utn\programación 2017\clases\clase05string\validaciones.h
+
+1492475190 source:e:\utn\programación 2017\clases\clase05string\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validaciones.h"
+

@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1490830589 source:d:\clase4\func.c
+	<stdio.h>
+	<stdlib.h>
+
+1490830777 source:d:\clase4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+
+1490828703 d:\clase4\func.c
+	<stdio.h>
+	<stdlib.h>
+
+1490829657 d:\clase4\func.h
+
+1490912427 source:c:\users\alumno\desktop\clase4\func.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+
+1490911096 c:\users\alumno\desktop\clase4\func.h
+
+1490912703 source:c:\users\alumno\desktop\clase4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+
+1491097379 source:d:\utn\programación 2017\clases\clase04arrays3\func.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+
+1491097379 d:\utn\programación 2017\clases\clase04arrays3\func.h
+
+1491097671 source:d:\utn\programación 2017\clases\clase04arrays3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"func.h"
+

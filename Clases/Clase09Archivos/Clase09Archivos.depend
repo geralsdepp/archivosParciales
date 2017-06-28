@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1495829604 source:c:\users\alumno\desktop\clase09archivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+
+1495829586 c:\users\alumno\desktop\clase09archivos\misfunciones.h
+
+1495829385 source:c:\users\alumno\desktop\clase09archivos\misfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"misFunciones.h"
+

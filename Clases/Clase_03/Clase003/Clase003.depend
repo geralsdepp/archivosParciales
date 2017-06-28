@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1491258570 source:e:\utn\programación 2017\clases\clase_03\clase003\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<ctype.h>
+
+1491257676 e:\utn\programación 2017\clases\clase_03\clase003\funciones.h
+
+1491258570 source:e:\utn\programación 2017\clases\clase_03\clase003\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	"funciones.h"
+
