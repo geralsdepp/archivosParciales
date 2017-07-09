@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1499218687 source:c:\users\geral\desktop\alquiler\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1499218687 c:\users\geral\desktop\alquiler\arraylist.h
+
+1499228522 source:c:\users\geral\desktop\alquiler\main.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+	"ArrayList.h"
+
+1499230158 c:\users\geral\desktop\alquiler\misfunciones.h
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1499229628 source:c:\users\geral\desktop\alquiler\misfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+	"setsGets.h"
+	"ArrayList.h"
+	"string.h"
+
+1499228623 source:c:\users\geral\desktop\alquiler\setsgets.c
+	"string.h"
+	"ArrayList.h"
+	"misFunciones.h"
+	"setsGets.h"
+
+1499228617 c:\users\geral\desktop\alquiler\setsgets.h
+
+1499218687 source:c:\users\alumno\desktop\final_musica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1499218687 c:\users\alumno\desktop\final_musica\arraylist.h
+
+1499453457 source:c:\users\alumno\desktop\final_musica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+	"ArrayList.h"
+
+1499464785 c:\users\alumno\desktop\final_musica\misfunciones.h
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1499228623 source:c:\users\alumno\desktop\final_musica\setsgets.c
+	"string.h"
+	"ArrayList.h"
+	"misFunciones.h"
+	"setsGets.h"
+
+1499228617 c:\users\alumno\desktop\final_musica\setsgets.h
+
+1499558532 source:c:\users\alumno\desktop\final_musica\misfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+	"setsGets.h"
+	"ArrayList.h"
+	"string.h"
+
