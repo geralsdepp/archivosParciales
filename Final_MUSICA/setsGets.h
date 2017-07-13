@@ -10,6 +10,10 @@ int temas_setId(S_Temas* this, int id);
 int temas_setNombre(S_Temas* this, char* nombre);
 int temas_setArtista(S_Temas* this, char* artista);
 
+int escuchados_setIdUsuario(S_Escuchados* this, int id);
+int escuchados_setIdTema(S_Escuchados* this, int id);
+
+
 int usuarios_getId(S_Usuario* this);
 char* usuarios_getNombre(S_Usuario* this);
 char* usuarios_getEmail(S_Usuario* this);
@@ -21,3 +25,6 @@ char* usuarios_getIpAddress(S_Usuario* this);
 int temas_getId(S_Temas* this);
 char* temas_getNombre(S_Temas* this);
 char* temas_getArtista(S_Temas* this);
+
+int escuchados_getIdUsuario(S_Escuchados* this);
+int escuchados_getIdTema(S_Escuchados* this);

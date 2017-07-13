@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1499218687 source:c:\users\geral\desktop\final_musica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1499218687 c:\users\geral\desktop\final_musica\arraylist.h
+
+1499816648 source:c:\users\geral\desktop\final_musica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+	"ArrayList.h"
+
+1499816648 c:\users\geral\desktop\final_musica\misfunciones.h
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1499824366 source:c:\users\geral\desktop\final_musica\misfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"misFunciones.h"
+	"setsGets.h"
+	"ArrayList.h"
+	"misValidaciones.h"
+
+1499228617 c:\users\geral\desktop\final_musica\setsgets.h
+
+1499743534 c:\users\geral\desktop\final_musica\misvalidaciones.h
+
+1499821843 source:c:\users\geral\desktop\final_musica\misvalidaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"misValidaciones.h"
+
+1499228623 source:c:\users\geral\desktop\final_musica\setsgets.c
+	"string.h"
+	"ArrayList.h"
+	"misFunciones.h"
+	"setsGets.h"
+
+1499218687 source:c:\users\alumno\desktop\final_musica\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1499218687 c:\users\alumno\desktop\final_musica\arraylist.h
+
+1499898294 source:c:\users\alumno\desktop\final_musica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+	"ArrayList.h"
+
+1499898279 c:\users\alumno\desktop\final_musica\misfunciones.h
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1499821843 source:c:\users\alumno\desktop\final_musica\misvalidaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"misValidaciones.h"
+
+1499743534 c:\users\alumno\desktop\final_musica\misvalidaciones.h
+
+1499832368 source:c:\users\alumno\desktop\final_musica\setsgets.c
+	"string.h"
+	"ArrayList.h"
+	"misFunciones.h"
+	"setsGets.h"
+
+1499832641 c:\users\alumno\desktop\final_musica\setsgets.h
+

@@ -225,3 +225,49 @@ char* temas_getArtista(S_Temas* this)
     }
     return retorno;
 }
+
+int escuchados_setIdUsuario(S_Escuchados* this, int id)
+{
+    int retorno = -1;
+
+    if(this != NULL && id > 0)
+    {
+        this->idUsuario = id;
+        retorno = 0;
+    }
+    return retorno;
+}
+
+int escuchados_setIdTema(S_Escuchados* this, int id)
+{
+    int retorno = -1;
+
+    if(this != NULL && id > 0)
+    {
+        this->idTemas = id;
+        retorno = 0;
+    }
+    return retorno;
+}
+
+int escuchados_getIdUsuario(S_Escuchados* this)
+{
+    int retorno = -1;
+
+    if(this != NULL)
+    {
+        retorno = this->idUsuario;
+    }
+    return retorno;
+}
+
+int escuchados_getIdTema(S_Escuchados* this)
+{
+    int retorno = -1;
+
+    if(this != NULL)
+    {
+        retorno = this->idTemas;
+    }
+    return retorno;
+}

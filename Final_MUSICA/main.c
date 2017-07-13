@@ -14,8 +14,8 @@ int main()
     ArrayList* lista_temas = al_newArrayList();
     inicializar_lista(lista_temas);
 
-    ArrayList* lista_feed = al_newArrayList();
-    inicializar_lista(lista_feed);
+    ArrayList* lista_escuchados = al_newArrayList();
+    inicializar_lista(lista_escuchados);
 
     do
     {
@@ -30,14 +30,12 @@ int main()
             cargar_temas(lista_temas);
             break;
         case 3:
-           //depurar(lista_usuarios,lista_temas,lista_feed);
-           //saveFile(lista_feed);
+            escuchar_tema(lista_temas, lista_usuarios, lista_escuchados);
             break;
         case 4:
-            //listar(lista_feed);
+            saveFile(lista_escuchados,lista_usuarios,lista_temas);
             break;
         case 5:
-
             break;
         case 6:
             seguir = 'n';
