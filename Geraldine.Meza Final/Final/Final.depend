@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1499218687 source:d:\geraldine.meza final\final\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1499218687 d:\geraldine.meza final\final\arraylist.h
+
+1499989687 source:d:\geraldine.meza final\final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"misFunciones.h"
+	"ArrayList.h"
+
+1499990821 d:\geraldine.meza final\final\misfunciones.h
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1499991770 source:d:\geraldine.meza final\final\misfunciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"misFunciones.h"
+	"setsGets.h"
+	"ArrayList.h"
+	"misValidaciones.h"
+
+1499987003 d:\geraldine.meza final\final\setsgets.h
+
+1499743534 d:\geraldine.meza final\final\misvalidaciones.h
+
+1499821843 source:d:\geraldine.meza final\final\misvalidaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"misValidaciones.h"
+
+1499986985 source:d:\geraldine.meza final\final\setsgets.c
+	"string.h"
+	"ArrayList.h"
+	"misFunciones.h"
+	"setsGets.h"
+
